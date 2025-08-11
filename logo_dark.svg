@@ -1,0 +1,66 @@
+<svg width="420" height="140" viewBox="0 0 420 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="d_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#141C24"/>
+    </linearGradient>
+    <linearGradient id="d_sheet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2196F3"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+    <linearGradient id="d_sql" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9575CD"/>
+      <stop offset="100%" stop-color="#673AB7"/>
+    </linearGradient>
+    <linearGradient id="d_xform" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E676"/>
+      <stop offset="100%" stop-color="#00A94F"/>
+    </linearGradient>
+    <filter id="d_shadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <rect width="420" height="140" fill="url(#d_bg)"/>
+  <g transform="translate(82,70)" stroke="#2E3C48" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M0 -60 L62 -4 L-4 54 Z"/>
+    <path d="M0 -60 L-58 -6 L-4 54 Z" opacity="0.5"/>
+    <path d="M62 -4 L-58 -6" opacity="0.3"/>
+  </g>
+  <g transform="translate(82,70)" filter="url(#d_shadow)">
+    <!-- Sheet Node -->
+    <g transform="translate(0,-60)">
+      <circle r="26" fill="url(#d_sheet)"/>
+      <rect x="-12" y="-12" width="24" height="24" rx="3" fill="#0F1419" stroke="#64B5F6" stroke-width="2"/>
+      <g stroke="#64B5F6" stroke-width="1.4">
+        <line x1="-12" y1="-4" x2="12" y2="-4"/>
+        <line x1="-12" y1="4" x2="12" y2="4"/>
+        <line x1="-4" y1="-12" x2="-4" y2="12"/>
+        <line x1="4" y1="-12" x2="4" y2="12"/>
+      </g>
+    </g>
+    <!-- SQL Node -->
+    <g transform="translate(62,-4)">
+      <circle r="26" fill="url(#d_sql)"/>
+      <g stroke="#F3E5F5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M-9 -12 L-14 -12 L-14 12 L-9 12"/>
+        <path d="M9 -12 L14 -12 L14 12 L9 12"/>
+      </g>
+      <path d="M-3 -4 L6 -4 L0 4 L8 4 L-2 12 L1 6 L-5 6 Z" fill="#F3E5F5" opacity="0.95"/>
+    </g>
+    <!-- Transform Node -->
+    <g transform="translate(-4,54)">
+      <circle r="26" fill="url(#d_xform)"/>
+      <g fill="#0F1419" stroke="#B9F6CA" stroke-width="0.8" transform="scale(0.72)">
+        <circle r="6" fill="#0F1419"/>
+        <path d="M0 -14 L4 -12 L8 -14 L10 -10 L14 -8 L12 -4 L14 0 L12 4 L14 8 L10 10 L8 14 L4 12 L0 14 L-4 12 L-8 14 L-10 10 L-14 8 L-12 4 L-14 0 L-12 -4 L-14 -8 L-10 -10 L-8 -14 L-4 -12 Z" fill="none" stroke="#E8F5E9" stroke-width="2" stroke-linejoin="round"/>
+      </g>
+      <path d="M-10 -2 L6 -2 L2 -8 L18 4 L2 16 L6 10 L-10 10 Z" fill="#0F1419" opacity="0.95"/>
+    </g>
+    <!-- Secondary nodes -->
+    <circle cx="-58" cy="-6" r="10" fill="#1E2A33" stroke="#1976D2" stroke-width="2"/>
+    <circle cx="-4" cy="20" r="8" fill="#1E2A33" stroke="#9575CD" stroke-width="2"/>
+    <circle cx="32" cy="18" r="8" fill="#1E2A33" stroke="#00E676" stroke-width="2"/>
+  </g>
+  <text x="200" y="78" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="56" font-weight="600" fill="#E3F2FD">Xcel<tspan fill="#B388FF">SQL</tspan></text>
+  <text x="202" y="104" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="16" font-weight="400" fill="#80CBC4" letter-spacing="0.6">Sheet • Query • Transform</text>
+</svg>
